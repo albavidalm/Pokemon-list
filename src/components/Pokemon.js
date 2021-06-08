@@ -3,9 +3,13 @@ import React from "react";
 const Pokemon = (props) => {
   const renderTypes = () => {
     //console.log(props.item.types);
-    props.item.types.map((type) => {
-      console.log(type);
-      return <li>{type}</li>;
+    return props.item.types.map((type, index) => {
+      //console.log(type);
+      return (
+        <li key={index} className="types__item">
+          {type}
+        </li>
+      );
     });
   };
   return (
@@ -17,7 +21,7 @@ const Pokemon = (props) => {
       />
       <div className="pokemon__info">
         <h2 className="pokemon__name">{props.item.name}</h2>
-        <p>{renderTypes()}</p>
+        <ul>{renderTypes()}</ul>
       </div>
     </article>
   );

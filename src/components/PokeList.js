@@ -6,7 +6,7 @@ const PokeList = (props) => {
   //console.log(props.list); //datos recogidos OK
   const pokeItems = props.list.map((item) => {
     return (
-      <li>
+      <li key={item.id}>
         <Pokemon item={item} />
       </li>
     );
