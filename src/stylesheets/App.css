@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.title {
+  margin: 2rem;
+}
+
+.pokemon {
+  margin: 2rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+  min-width: 200px;
+  max-width: 250px;
+  height: 350px;
+  text-align: center;
+}
+
+.pokemon__name {
+  text-transform: capitalize;
+}
