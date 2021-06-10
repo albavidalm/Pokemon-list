@@ -3,26 +3,99 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  list-style: none;
+}
+.page {
+  height: 100vh;
+  background: rgb(40, 24, 157);
+  background: radial-gradient(
+    circle,
+    rgb(94, 75, 240) 34%,
+    rgba(2, 103, 228, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 
+.pokemon__header {
+  text-align: center;
+  width: 100vw;
+  height: 10%;
+}
 .title {
-  margin: 2rem;
+  text-align: center;
+  margin-top: 20px;
+  color: transparent;
+  font-size: 1px;
 }
 
+.title__img {
+  width: 30%;
+  margin-top: -30px;
+}
+.pokemon__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .pokemon {
   margin: 2rem;
   padding: 1rem;
   display: flex;
   flex-direction: column;
   background-color: white;
-  border-radius: 5px;
-  border: 1px solid black;
-  min-width: 200px;
-  max-width: 250px;
-  height: 350px;
+  border-radius: 110px;
+  background-image: url(../images/pokemon_sfera.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 220px;
+  height: 220px;
   text-align: center;
+  -webkit-box-shadow: 0px 10px 13px -7px #ffffff,
+    5px 5px 15px 5px rgba(255, 255, 255, 0);
+  box-shadow: 0px 10px 13px -7px #ffffff, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.pokemon:hover {
+  transform: scale(1.2);
+  -webkit-box-shadow: 0px 10px 13px -7px #f9fc46,
+    5px 5px 15px 5px rgba(255, 241, 42, 0);
+  box-shadow: 0px 10px 13px -7px #f8ec3d,
+    5px 5px 15px 5px rgba(251, 253, 109, 0);
 }
 
 .pokemon__name {
   text-transform: capitalize;
+  font-family: "Paytone One", sans-serif;
+  font-size: 29px;
+  -webkit-text-stroke: 1px #285ca7;
+  color: #ffcc00;
+  text-shadow: 3px 3px 0 #285ca7, -1px -1px 0 #000, 1px -1px 0 #000,
+    -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.pokemon__picture {
+  margin: 0 auto;
+  -webkit-filter: drop-shadow(5px 5px 5px rgb(255, 255, 255));
+  filter: drop-shadow(5px 5px 5px rgb(255, 255, 255));
+}
+
+.pokemon__types {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-transform: capitalize;
+  margin-top: 15px;
+}
+.types__item {
+  border-radius: 10px;
+  padding: 3px;
+  font-family: "Paytone One", sans-serif;
+  text-align: center;
+  margin-right: -20px;
+  margin-left: -20px;
+  background-color: #ffcc00;
+  line-height: 18px;
+  color: #285ca7;
+  margin-top: 5px;
 }
