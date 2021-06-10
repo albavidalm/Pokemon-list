@@ -2,7 +2,7 @@
 
 ## Description
 
-This website consists of a Pokémon list with in a card for each Pokémon. Ypu can find in relevant information, such as Pokemon's name, powers and an a picture. The dat is obtained from an array that is included in the App status component.
+This website consists of a Pokémon list with in a card for each Pokémon. You can find in relevant information, such as Pokemon's name, powers and a picture. The data is obtained from an array that is included in the App.js status component.
 
 ## Links
 
@@ -57,6 +57,6 @@ For running the server file on you can use this command.
 - [Email](mailto:albavidalm@gmail.com?subject=Hi "Hi!")
 - [Linkedin](https://www.linkedin.com/in/albavidalm/ "Let's work together!")
 
-## 🤝 Support
+## 🖤 Support
 
 Contributions, issues, and feature requests are welcome!
