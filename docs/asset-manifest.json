@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "./static/css/main.f8197b51.chunk.css",
-    "main.js": "./static/js/main.efb0917b.chunk.js",
-    "main.js.map": "./static/js/main.efb0917b.chunk.js.map",
+    "main.css": "./static/css/main.d88f99f2.chunk.css",
+    "main.js": "./static/js/main.d52aef6c.chunk.js",
+    "main.js.map": "./static/js/main.d52aef6c.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.bf6d6371.js",
     "runtime-main.js.map": "./static/js/runtime-main.bf6d6371.js.map",
-    "static/js/2.6cce82d2.chunk.js": "./static/js/2.6cce82d2.chunk.js",
-    "static/js/2.6cce82d2.chunk.js.map": "./static/js/2.6cce82d2.chunk.js.map",
+    "static/js/2.3f3537ea.chunk.js": "./static/js/2.3f3537ea.chunk.js",
+    "static/js/2.3f3537ea.chunk.js.map": "./static/js/2.3f3537ea.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.f8197b51.chunk.css.map": "./static/css/main.f8197b51.chunk.css.map",
-    "static/js/2.6cce82d2.chunk.js.LICENSE.txt": "./static/js/2.6cce82d2.chunk.js.LICENSE.txt"
+    "static/css/main.d88f99f2.chunk.css.map": "./static/css/main.d88f99f2.chunk.css.map",
+    "static/js/2.3f3537ea.chunk.js.LICENSE.txt": "./static/js/2.3f3537ea.chunk.js.LICENSE.txt",
+    "static/media/Pokemon-Logo.e61842b2.png": "./static/media/Pokemon-Logo.e61842b2.png",
+    "static/media/App.css": "./static/media/pokemon_sfera.bdf2390f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.bf6d6371.js",
-    "static/js/2.6cce82d2.chunk.js",
-    "static/css/main.f8197b51.chunk.css",
-    "static/js/main.efb0917b.chunk.js"
+    "static/js/2.3f3537ea.chunk.js",
+    "static/css/main.d88f99f2.chunk.css",
+    "static/js/main.d52aef6c.chunk.js"
   ]
 }
