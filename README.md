@@ -6,9 +6,9 @@ This website consists of a Pokémon list with in a card for each Pokémon. You c
 
 ## Links
 
-- [Repo](https://github.com/Adalab/modulo-3-evaluacion-intermedia-albavidalm <project-name> "<project-name> Repo")
+- [Repo](https://github.com/Adalab/modulo-3-evaluacion-intermedia-albavidalm "Repo")
 
-- [Live](http://beta.adalab.es/modulo-3-evaluacion-intermedia-albavidalm/ <Homepage url> "Live View")
+- [Live](http://beta.adalab.es/modulo-3-evaluacion-intermedia-albavidalm/ "Live View")
 
 ## Screenshots
 
